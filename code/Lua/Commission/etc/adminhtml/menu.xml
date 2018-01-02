@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Lua_Commission::customer" title="Customer Commission" module="Lua_Commission"
+             parent="Magento_Customer::customer" action="lua_commission/customer/index"
+             resource="Lua_Commission::customer"/>
+    </menu>
+</config>
